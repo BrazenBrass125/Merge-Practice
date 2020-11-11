@@ -5,6 +5,24 @@
     <title>Merge Practice</title>
   </head>
   <body>
+    <!-- -->
+    <h1>Part One</h1>
+    <script>
 
+      diamo = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
+      heart = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
+      spade = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
+      clubs = ["Ace","2","3","4","5","6","7","8","9","10","Jack","Queen","King"]
+      var rand1 = Math.floor(Math.random() * 13);
+      var rand2 = Math.floor(Math.random() * 13);
+      var rand3 = Math.floor(Math.random() * 13);
+      var rand4 = Math.floor(Math.random() * 13);
+
+      document.write("<p>" + diamo[rand1] + " of Diamonds</p>")
+      document.write("<p>" + heart[rand2] + " of Hearts</p>")
+      document.write("<p>" + spade[rand3] + " of Spades</p>")
+      document.write("<p>" + clubs[rand4] + " of Clubs</p>")
+
+    </script>
   </body>
 </html>
