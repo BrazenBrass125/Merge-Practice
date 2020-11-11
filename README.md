@@ -1,2 +1,2 @@
-# Part one -Ethan Boatman
+# Part one - Ethan Boatman
 # Part Two - Cordell Reunard
