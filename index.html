@@ -31,14 +31,20 @@
 
     <script>
 
-      var randNum = Math.floor(Math.random() * 11);
-      var guess = prompt("Guess a number between 0 & 10")
-      console.log(randNum)
-      if(guess == randNum){
-        window.alert("Correct! Good Job!");
-      }else{
-        window.alert("That is incorrect.")
-      }
+       //Such creativity, much wow
+          var correctNum = Math.floor(Math.random() * 11);
+          console.log(correctNum)
+
+          var number = prompt("Pick a number between 0 & 10")
+
+          if (number == correctNum)
+          {
+            document.write("<h1>That is correct</h1>")
+          }
+          else
+          {
+            document.write("<h1>That is incorrect</h1>")
+          }
 
     </script>
   </body>
